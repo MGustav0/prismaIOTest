@@ -1,6 +1,6 @@
-# GoBarber Back-end
+# Prisma IO
 
-![Badge](https://img.shields.io/badge/node-%3E%3D%2012.18.2-brightgreen) ![Badge](https://img.shields.io/badge/types-Flow%20%7C%20TypeScript-blue)
+![Badge](https://img.shields.io/badge/node-%3E%3D%2016.14.2-brightgreen) ![Badge](https://img.shields.io/badge/types-Flow%20%7C%20TypeScript-blue) ![Badge](https://img.shields.io/badge/prisma-3.11.1-blueviolet)
 
 ## Status do Projeto
 
