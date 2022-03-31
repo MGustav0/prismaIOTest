@@ -12,7 +12,7 @@ async function main() {
     },
   });
 
-  console.log('Create Course: ', result);
+  console.log('Create Course with foreign key (fk): ', result);
 }
 
 main();

@@ -17,7 +17,7 @@ async function main() {
     },
   });
 
-  console.log('Create Course: ', result);
+  console.log('Create Course with existent teacher: ', result);
 }
 
 main();

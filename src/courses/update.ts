@@ -13,7 +13,7 @@ async function main() {
     },
   });
 
-  console.log('Find one Course: ', result);
+  console.log('Update one Course: ', result);
 }
 
 main();

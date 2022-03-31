@@ -9,7 +9,7 @@ async function main() {
     },
   });
 
-  console.log('Create Teacher: ', result);
+  console.log('Create Course: ', result);
 }
 
 main();
