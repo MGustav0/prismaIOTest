@@ -31,19 +31,8 @@ Neste projeto testo o ORM PrismaIO com express, PostgreSQL via docker e typescri
 :warning: [Node](https://nodejs.org/en/download/)
 :warning: [Yarn](https://yarnpkg.com/getting-started/install)
 :warning: [Docker](https://www.docker.com/products/docker-desktop)
+:warning: [Compose](https://docs.docker.com/compose/install/)
 :warning: [PostgreSQL Docker](https://hub.docker.com/_/postgres)
-
-## Iniciando/Configurando banco de dados
-
-Ter Docker/PostgreSQL instalados.
-
-### Instalar PostgreSQL via Docker
-
-*`docker run --name postgresPrimaTest -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres`
-*Verificar se a imagem está rodando: `docker ps`
-*Usuário: postgres
-*Senha: docker
-*Acesso pelo terminal: `docker exec -it nome_do_container bash`
 
 ### Criar Banco de Dados
 
@@ -59,7 +48,9 @@ Ter Docker/PostgreSQL instalados.
 
 3. Instale as dependencias: `yarn install`
 
-4. Execute: `yarn dev:server`
+4. Execute: `docker-compose up -d` para rodar o banco de dados.
+
+5. Execute: `yarn dev:server`
 
 Pronto! Agora basta acessar a aplicação à partir do link: http://localhost:3333/
 
