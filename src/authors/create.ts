@@ -5,11 +5,11 @@ const prisma = new PrismaClient();
 async function main() {
   const result = await prisma.teachers.create({
     data: {
-      name: 'John Doe 4',
+      name: 'John Doe',
     },
   });
 
-  console.log('Create Course: ', result);
+  console.log('Create author: ', result);
 }
 
 main();
