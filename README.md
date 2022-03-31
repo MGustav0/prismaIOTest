@@ -49,7 +49,7 @@ Neste projeto testo o ORM PrismaIO com express, PostgreSQL via docker e typescri
 
 3. Instale as dependências: `yarn install`
 
-4. Execute: `docker-compose up -d` para rodar o banco de dados.
+4. Execute: `make up` para rodar o banco de dados em modo detached.
 
 5. Execute: `yarn dev:server`
 
