@@ -59,6 +59,9 @@ yarn-add: ## Run yarn to add packages . I.e: args=make yarn args="ts-node"
 yarn-add-d: ## Run yarn to add development packages. I.e: args=make yarn args="add ts-node"
 	docker-compose exec api yarn add -D ${args}
 
+execute: ## Run yarn ts-node-dev with files. I.e: args=make execute args=src/authors/create_many.ts
+	yarn ts-node-dev ${args}
+
 bash: ## Execute some command directly in the NodeJS API container
 	docker-compose exec api ${args}
 

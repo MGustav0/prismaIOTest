@@ -3,14 +3,10 @@ import { PrismaClient } from '@prisma/client';
 const prisma = new PrismaClient();
 
 async function main() {
-  const result = await prisma.authors.create({
+  const result = await prisma.books.create({
     data: {
-      name: 'John Doe',
-      books: {
-        create: {
-          name: 'Book 1',
-        },
-      },
+      name: 'Book 4',
+      author_id: 'f1b614d3-d4e6-4666-a4ef-4eb788594011',
     },
   });
 
