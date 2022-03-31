@@ -4,13 +4,13 @@
 
 ## Status do Projeto
 
-> Concluido :heavy_check_mark:
+> Concluído :heavy_check_mark:
 
 ## Descrição do projeto
 
 Neste projeto testo o ORM PrismaIO com express, PostgreSQL via docker e typescript.
 
-## Linguagens, dependencias e libs utilizadas :books:
+## Linguagens, dependências e libs utilizadas :books:
 
 - [TypeScript](https://www.typescriptlang.org/)
 
@@ -36,9 +36,10 @@ Neste projeto testo o ORM PrismaIO com express, PostgreSQL via docker e typescri
 
 ### Criar Banco de Dados
 
-1. Instale o DBeaver, ou outro gerenciador de Banco de Dados, ou faça por linha de comando.
-2. Acesse com o usuário e senha supracitados.
-3. Crie um Banco de Dados com o nome __prismaio__.
+1. Instale o [DBeaver](https://dbeaver.io/download/), outro gerenciador de Banco de Dados ou faça por linha de comando.
+2. Crie uma conexão com:
+   1. Nome do banco: __prismaio__
+   2. Acesse com o usuário e senha do arquivo `.env`.
 
 ## Como rodar a aplicação
 
@@ -46,7 +47,7 @@ Neste projeto testo o ORM PrismaIO com express, PostgreSQL via docker e typescri
 
 2. Acesse a pasta backend via terminal `cd /backend`.
 
-3. Instale as dependencias: `yarn install`
+3. Instale as dependências: `yarn install`
 
 4. Execute: `docker-compose up -d` para rodar o banco de dados.
 
