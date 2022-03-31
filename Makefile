@@ -71,6 +71,15 @@ migrate: ## Run application migrations
 migrations-generate: ## Generate a migration file with recent changes (diff)
 	yarn prisma migrate dev --name ${args}
 
+prisma-studio: ## Open connection to prisma studio
+	yarn prisma studio --port 5555 --browser none
+
+prisma-studio-default: ## Open prisma studio in default browser
+	yarn prisma studio --port 5555
+
+prisma-studio-browser: ## Open prisma studio in the browser (firefox, chrome, etc.)
+	yarn prisma studio --port 5555 --browser ${args}
+
 lint: ## Run lint
 	docker-compose exec api yarn lint
 
