@@ -65,6 +65,9 @@ execute: ## Run yarn ts-node-dev with files. I.e: args=make execute args=src/aut
 bash: ## Execute some command directly in the NodeJS API container
 	docker-compose exec api ${args}
 
+db-pull: ## Run application migrations
+	yarn prisma db pull
+
 migrate: ## Run application migrations
 	yarn prisma migrate dev
 

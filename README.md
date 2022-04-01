@@ -10,21 +10,9 @@
 
 Neste projeto testo o ORM PrismaIO com express, PostgreSQL via docker e typescript.
 
-## Linguagens, dependências e libs utilizadas :books:
+## Linguagens, dependências e libs utilizadas
 
 - [TypeScript](https://www.typescriptlang.org/)
-
-## Funcionalidades
-
-:heavy_check_mark: Criar usuário.
-
-:heavy_check_mark: logar usuário.
-
-:heavy_check_mark: Atualizar avatar do usuário.
-
-:heavy_check_mark: Criar agendamentos.
-
-:heavy_check_mark: Listar agendamentos.
 
 ## Pré-requisitos
 
@@ -51,17 +39,15 @@ Neste projeto testo o ORM PrismaIO com express, PostgreSQL via docker e typescri
 
 4. Execute: `make up` para rodar o banco de dados em modo detached.
 
-5. Execute: `yarn dev:server`
+5. Execute: `make db-pull` e `make migrate` para sincronizar o banco com as migrations.
 
-Pronto! Agora basta acessar a aplicação à partir do link: http://localhost:3333/
+6. Execute: `make execute args=src/nome_da_pasta/nome_do_arquivo_a_ser_executado.ts` para rodar o arquivo.
+
+Pronto! Agora basta acessar o Prisma Client à partir deste [link](http://localhost:5555).
 
 ## Layout da aplicação (back-end)
 
-Resultados obtidos pelo [Insomnia](https://insomnia.rest/download/) um software para interação com o backend (API) via HTTP e JSON.
-
-### Criar usuário
-
-<img src="" max-width="800" max-heigth="600" />
+Resultados podem ser obtidos diretamente pelo terminal.
 
 ## :memo: Licença
 
