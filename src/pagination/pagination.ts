@@ -12,10 +12,6 @@ async function main() {
       skip,
       // Number of items per page
       take: 2,
-      // where: {
-      //   // Change to your course module ID
-      //   id: '285a8214-0867-4ae0-8ad5-aeab1a60614d',
-      // },
     });
     skip += 2;
 
