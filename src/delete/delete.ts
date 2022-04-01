@@ -10,7 +10,7 @@ async function main() {
     },
   });
 
-  console.log('Create Teacher: ', result);
+  console.log('Course Module deleted: ', result);
 }
 
 main();
