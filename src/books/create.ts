@@ -10,7 +10,7 @@ async function main() {
     },
   });
 
-  console.log('Create author: ', result);
+  console.log('Create book with author: ', result);
 }
 
 main();

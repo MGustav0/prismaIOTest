@@ -21,7 +21,7 @@ async function main() {
     },
   });
 
-  console.log('Create author: ', result);
+  console.log('Create author with many books: ', result);
 }
 
 main();

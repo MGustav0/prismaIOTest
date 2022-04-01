@@ -8,7 +8,8 @@ async function main() {
       name: 'Curso de React Native',
       description: 'Curso excelente de React Native',
       duration: 300,
-      fk_id_teacher: 'e0bc3181-120a-4913-9567-a6dea38b4eef',
+      // Change to your teacher id
+      fk_id_teacher: '7f75a9ca-9916-41e3-b0f4-371e585f1baa',
     },
   });
 

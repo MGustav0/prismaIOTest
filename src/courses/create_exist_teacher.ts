@@ -11,7 +11,7 @@ async function main() {
       teacher: {
         connect: {
           // Change to your teacher id
-          id: '63323abe-e9e4-4e38-990d-050f21507c50',
+          id: '7f75a9ca-9916-41e3-b0f4-371e585f1baa',
         },
       },
     },
